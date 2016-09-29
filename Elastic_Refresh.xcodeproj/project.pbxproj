@@ -15,6 +15,7 @@
 		70E8E7CC1D9BC712000005FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E8E7CA1D9BC712000005FE /* LaunchScreen.storyboard */; };
 		70E8E7D71D9BC712000005FE /* Elastic_RefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E8E7D61D9BC712000005FE /* Elastic_RefreshTests.m */; };
 		70E8E7E21D9BC712000005FE /* Elastic_RefreshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E8E7E11D9BC712000005FE /* Elastic_RefreshUITests.m */; };
+		70E8E7F31D9CB302000005FE /* UIView+PresentationLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E8E7F21D9CB302000005FE /* UIView+PresentationLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		70E8E7DD1D9BC712000005FE /* Elastic_RefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Elastic_RefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70E8E7E11D9BC712000005FE /* Elastic_RefreshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Elastic_RefreshUITests.m; sourceTree = "<group>"; };
 		70E8E7E31D9BC712000005FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70E8E7F11D9CB302000005FE /* UIView+PresentationLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PresentationLayer.h"; sourceTree = "<group>"; };
+		70E8E7F21D9CB302000005FE /* UIView+PresentationLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PresentationLayer.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				70E8E7C01D9BC712000005FE /* AppDelegate.m */,
 				70E8E7C21D9BC712000005FE /* ViewController.h */,
 				70E8E7C31D9BC712000005FE /* ViewController.m */,
+				70E8E7F11D9CB302000005FE /* UIView+PresentationLayer.h */,
+				70E8E7F21D9CB302000005FE /* UIView+PresentationLayer.m */,
 				70E8E7C51D9BC712000005FE /* Main.storyboard */,
 				70E8E7C81D9BC712000005FE /* Assets.xcassets */,
 				70E8E7CA1D9BC712000005FE /* LaunchScreen.storyboard */,
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					70E8E7B81D9BC712000005FE = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5V9N6LR458;
 					};
 					70E8E7D11D9BC712000005FE = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -272,6 +278,7 @@
 			files = (
 				70E8E7C41D9BC712000005FE /* ViewController.m in Sources */,
 				70E8E7C11D9BC712000005FE /* AppDelegate.m in Sources */,
+				70E8E7F31D9CB302000005FE /* UIView+PresentationLayer.m in Sources */,
 				70E8E7BE1D9BC712000005FE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +420,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5V9N6LR458;
 				INFOPLIST_FILE = Elastic_Refresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jiaxiang.Elastic-Refresh";
@@ -424,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5V9N6LR458;
 				INFOPLIST_FILE = Elastic_Refresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jiaxiang.Elastic-Refresh";
@@ -496,6 +505,7 @@
 				70E8E7E81D9BC712000005FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70E8E7E91D9BC712000005FE /* Build configuration list for PBXNativeTarget "Elastic_RefreshTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +514,7 @@
 				70E8E7EB1D9BC712000005FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70E8E7EC1D9BC712000005FE /* Build configuration list for PBXNativeTarget "Elastic_RefreshUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +523,7 @@
 				70E8E7EE1D9BC712000005FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
